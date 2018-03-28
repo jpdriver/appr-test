@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello React Native London</Text>
+        <Text style={styles.text}>Hello React Native London</Text>
       </View>
     );
   }
@@ -17,6 +17,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    color: 'red'
   },
+  text: {
+    color: 'red'
+  }
 });
